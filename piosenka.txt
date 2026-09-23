@@ -12,11 +12,7 @@ zwrotka-4.txt
 
 refren-3.txt
 
-[Verse 5]
-On the third day, he took me to the river
-He showed me the roses and we kissed
-And the last thing I heard was a muttered word
-As he knelt above me with a rock in his fist
+zwrotka-5.txt
 
 [Verse 6]
 On the last day I took her where the wild roses grow
