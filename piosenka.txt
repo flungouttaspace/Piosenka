@@ -1,10 +1,6 @@
 refren-1.txt
 
-[Verse 1]
-From the first day I saw her, I knew she was the one
-She stared in my eyes and smiled
-For her lips were the colour of the roses
-That grew down the river, all bloody and wild
+zwrotka-1.txt
 
 [Verse 2]
 When he knocked on my door and entered the room
