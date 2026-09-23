@@ -18,6 +18,4 @@ zwrotka-6.txt
 
 refren-4.txt
 
-[Outro]
-My name was Elisa Day
-For my name was Elisa Day
+outro.txt
