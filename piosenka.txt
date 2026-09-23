@@ -2,11 +2,7 @@ refren-1.txt
 
 zwrotka-1.txt
 
-[Verse 2]
-When he knocked on my door and entered the room
-My trembling subsided in his sure embrace
-He would be my first man, and with a careful hand
-He wiped at the tears that ran down my face
+zwrotka-2.txt
 
 [Chorus]
 They call me The Wild Rose
