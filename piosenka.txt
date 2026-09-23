@@ -4,11 +4,7 @@ zwrotka-1.txt
 
 zwrotka-2.txt
 
-[Chorus]
-They call me The Wild Rose
-But my name was Elisa Day
-Why they call me it, I do not know
-For my name was Elisa Day
+refren-2.txt
 
 [Verse 3]
 On the second day, I brought her a flower
