@@ -16,11 +16,7 @@ zwrotka-5.txt
 
 zwrotka-6.txt
 
-[Chorus]
-They call me The Wild Rose
-But my name was Elisa Day
-Why they call me it, I do not know
-For my name was Elisa Day
+refren-4.txt
 
 [Outro]
 My name was Elisa Day
