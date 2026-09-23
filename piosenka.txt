@@ -6,11 +6,7 @@ zwrotka-2.txt
 
 refren-2.txt
 
-[Verse 3]
-On the second day, I brought her a flower
-She was more beautiful than any woman I've seen
-I said, "Do you know where the wild roses grow
-So sweet and scarlet and free?"
+zwrotka-3.txt
 
 [Verse 4]
 On the second day, he came with a single red rose
