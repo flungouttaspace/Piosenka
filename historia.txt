@@ -1,0 +1,752 @@
+===== git log =====
+commit aed05e951a71125c4d8a0bbc78536579547591cc
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:50 2026 +0200
+
+    Usun identyczne refreny i ujednolic odwolania
+
+commit 9b7b9d298f8142d9f9ff0bd6f592c0fb59c6be67
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Revert "Usun ostatnia linie pierwszego refrenu"
+    
+    This reverts commit e2fd12571b18c9a34f72a2296429844a880670e5.
+
+commit e2fd12571b18c9a34f72a2296429844a880670e5
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Usun ostatnia linie pierwszego refrenu
+
+commit 5d5692719c2743910e41eafee1d6cd513a5ae253
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do outro.txt
+
+commit 889c3db92283128f0d1f38d810aec494f40bcc25
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do refren-4.txt
+
+commit f81fcd655fd6189f44064252837f85ab806b1b2b
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-6.txt
+
+commit 226ffe454eac92a14458b929ebccd585636e14f5
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-5.txt
+
+commit 134f955790d0b99b20e54028230bcc2451cd5c75
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do refren-3.txt
+
+commit e679f2f76e1dc37190b1ff504e9f2714e77abc7e
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-4.txt
+
+commit 57b1a1c524f6db6bbff10b9436f02ef3774b9e34
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-3.txt
+
+commit 87d23e9a1ad8c855d5a2b5b23d7350b1bb892c18
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do refren-2.txt
+
+commit 65486bf9d63cd14b2bbbda1ee5f5a5f8078ee124
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-2.txt
+
+commit 5f428905b8e68de8aa5ace89ec877a2fbec7f37b
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-1.txt
+
+commit 773a2f501badc7a7b12a02d327063068bb2fcdaf
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do refren-1.txt
+
+commit 6274f51b62dd2dac514b36cffe6168315adf356c
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:48 2026 +0200
+
+    Dodaj pelny tekst piosenki Where the Wild Roses Grow
+
+===== git log -p -- piosenka.txt =====
+commit aed05e951a71125c4d8a0bbc78536579547591cc
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:50 2026 +0200
+
+    Usun identyczne refreny i ujednolic odwolania
+
+diff --git a/piosenka.txt b/piosenka.txt
+index ecfc987..c15ff04 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,18 +4,18 @@ zwrotka-1.txt
+ 
+ zwrotka-2.txt
+ 
+-refren-2.txt
++refren-1.txt
+ 
+ zwrotka-3.txt
+ 
+ zwrotka-4.txt
+ 
+-refren-3.txt
++refren-1.txt
+ 
+ zwrotka-5.txt
+ 
+ zwrotka-6.txt
+ 
+-refren-4.txt
++refren-1.txt
+ 
+ outro.txt
+
+commit 5d5692719c2743910e41eafee1d6cd513a5ae253
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do outro.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index d32ab84..ecfc987 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -18,6 +18,4 @@ zwrotka-6.txt
+ 
+ refren-4.txt
+ 
+-[Outro]
+-My name was Elisa Day
+-For my name was Elisa Day
++outro.txt
+
+commit 889c3db92283128f0d1f38d810aec494f40bcc25
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do refren-4.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index a5c52c7..d32ab84 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -16,11 +16,7 @@ zwrotka-5.txt
+ 
+ zwrotka-6.txt
+ 
+-[Chorus]
+-They call me The Wild Rose
+-But my name was Elisa Day
+-Why they call me it, I do not know
+-For my name was Elisa Day
++refren-4.txt
+ 
+ [Outro]
+ My name was Elisa Day
+
+commit f81fcd655fd6189f44064252837f85ab806b1b2b
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-6.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 60b66c9..a5c52c7 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -14,11 +14,7 @@ refren-3.txt
+ 
+ zwrotka-5.txt
+ 
+-[Verse 6]
+-On the last day I took her where the wild roses grow
+-She lay on the bank, the wind light as a thief
+-And I kissed her goodbye, said, "All beauty must die"
+-And leant down and planted a rose 'tween her teeth
++zwrotka-6.txt
+ 
+ [Chorus]
+ They call me The Wild Rose
+
+commit 226ffe454eac92a14458b929ebccd585636e14f5
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-5.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index dd83cca..60b66c9 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -12,11 +12,7 @@ zwrotka-4.txt
+ 
+ refren-3.txt
+ 
+-[Verse 5]
+-On the third day, he took me to the river
+-He showed me the roses and we kissed
+-And the last thing I heard was a muttered word
+-As he knelt above me with a rock in his fist
++zwrotka-5.txt
+ 
+ [Verse 6]
+ On the last day I took her where the wild roses grow
+
+commit 134f955790d0b99b20e54028230bcc2451cd5c75
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do refren-3.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 23b1455..dd83cca 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -10,11 +10,7 @@ zwrotka-3.txt
+ 
+ zwrotka-4.txt
+ 
+-[Chorus]
+-They call me The Wild Rose
+-But my name was Elisa Day
+-Why they call me it, I do not know
+-For my name was Elisa Day
++refren-3.txt
+ 
+ [Verse 5]
+ On the third day, he took me to the river
+
+commit e679f2f76e1dc37190b1ff504e9f2714e77abc7e
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-4.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index cf2881f..23b1455 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -8,11 +8,7 @@ refren-2.txt
+ 
+ zwrotka-3.txt
+ 
+-[Verse 4]
+-On the second day, he came with a single red rose
+-He said, "Give me your loss and your sorrow"
+-I nodded my head as I lay on the bed
+-If I show you the roses, will you follow?
++zwrotka-4.txt
+ 
+ [Chorus]
+ They call me The Wild Rose
+
+commit 57b1a1c524f6db6bbff10b9436f02ef3774b9e34
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-3.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 56ed051..cf2881f 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -6,11 +6,7 @@ zwrotka-2.txt
+ 
+ refren-2.txt
+ 
+-[Verse 3]
+-On the second day, I brought her a flower
+-She was more beautiful than any woman I've seen
+-I said, "Do you know where the wild roses grow
+-So sweet and scarlet and free?"
++zwrotka-3.txt
+ 
+ [Verse 4]
+ On the second day, he came with a single red rose
+
+commit 87d23e9a1ad8c855d5a2b5b23d7350b1bb892c18
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do refren-2.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index e651854..56ed051 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,11 +4,7 @@ zwrotka-1.txt
+ 
+ zwrotka-2.txt
+ 
+-[Chorus]
+-They call me The Wild Rose
+-But my name was Elisa Day
+-Why they call me it, I do not know
+-For my name was Elisa Day
++refren-2.txt
+ 
+ [Verse 3]
+ On the second day, I brought her a flower
+
+commit 65486bf9d63cd14b2bbbda1ee5f5a5f8078ee124
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-2.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index dfdf979..e651854 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,11 +2,7 @@ refren-1.txt
+ 
+ zwrotka-1.txt
+ 
+-[Verse 2]
+-When he knocked on my door and entered the room
+-My trembling subsided in his sure embrace
+-He would be my first man, and with a careful hand
+-He wiped at the tears that ran down my face
++zwrotka-2.txt
+ 
+ [Chorus]
+ They call me The Wild Rose
+
+commit 5f428905b8e68de8aa5ace89ec877a2fbec7f37b
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 59f9e7f..dfdf979 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,10 +1,6 @@
+ refren-1.txt
+ 
+-[Verse 1]
+-From the first day I saw her, I knew she was the one
+-She stared in my eyes and smiled
+-For her lips were the colour of the roses
+-That grew down the river, all bloody and wild
++zwrotka-1.txt
+ 
+ [Verse 2]
+ When he knocked on my door and entered the room
+
+commit 773a2f501badc7a7b12a02d327063068bb2fcdaf
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do refren-1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 10c17a1..59f9e7f 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,8 +1,4 @@
+-[Chorus]
+-They call me The Wild Rose
+-But my name was Elisa Day
+-Why they call me it, I do not know
+-For my name was Elisa Day
++refren-1.txt
+ 
+ [Verse 1]
+ From the first day I saw her, I knew she was the one
+
+commit 6274f51b62dd2dac514b36cffe6168315adf356c
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:48 2026 +0200
+
+    Dodaj pelny tekst piosenki Where the Wild Roses Grow
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..10c17a1
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,63 @@
++[Chorus]
++They call me The Wild Rose
++But my name was Elisa Day
++Why they call me it, I do not know
++For my name was Elisa Day
++
++[Verse 1]
++From the first day I saw her, I knew she was the one
++She stared in my eyes and smiled
++For her lips were the colour of the roses
++That grew down the river, all bloody and wild
++
++[Verse 2]
++When he knocked on my door and entered the room
++My trembling subsided in his sure embrace
++He would be my first man, and with a careful hand
++He wiped at the tears that ran down my face
++
++[Chorus]
++They call me The Wild Rose
++But my name was Elisa Day
++Why they call me it, I do not know
++For my name was Elisa Day
++
++[Verse 3]
++On the second day, I brought her a flower
++She was more beautiful than any woman I've seen
++I said, "Do you know where the wild roses grow
++So sweet and scarlet and free?"
++
++[Verse 4]
++On the second day, he came with a single red rose
++He said, "Give me your loss and your sorrow"
++I nodded my head as I lay on the bed
++If I show you the roses, will you follow?
++
++[Chorus]
++They call me The Wild Rose
++But my name was Elisa Day
++Why they call me it, I do not know
++For my name was Elisa Day
++
++[Verse 5]
++On the third day, he took me to the river
++He showed me the roses and we kissed
++And the last thing I heard was a muttered word
++As he knelt above me with a rock in his fist
++
++[Verse 6]
++On the last day I took her where the wild roses grow
++She lay on the bank, the wind light as a thief
++And I kissed her goodbye, said, "All beauty must die"
++And leant down and planted a rose 'tween her teeth
++
++[Chorus]
++They call me The Wild Rose
++But my name was Elisa Day
++Why they call me it, I do not know
++For my name was Elisa Day
++
++[Outro]
++My name was Elisa Day
++For my name was Elisa Day
+
+===== git log -p -- refren-1.txt =====
+commit 9b7b9d298f8142d9f9ff0bd6f592c0fb59c6be67
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Revert "Usun ostatnia linie pierwszego refrenu"
+    
+    This reverts commit e2fd12571b18c9a34f72a2296429844a880670e5.
+
+diff --git a/refren-1.txt b/refren-1.txt
+index 3d357d0..d10c8aa 100644
+--- a/refren-1.txt
++++ b/refren-1.txt
+@@ -2,3 +2,4 @@
+ They call me The Wild Rose
+ But my name was Elisa Day
+ Why they call me it, I do not know
++For my name was Elisa Day
+
+commit e2fd12571b18c9a34f72a2296429844a880670e5
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Usun ostatnia linie pierwszego refrenu
+
+diff --git a/refren-1.txt b/refren-1.txt
+index d10c8aa..3d357d0 100644
+--- a/refren-1.txt
++++ b/refren-1.txt
+@@ -2,4 +2,3 @@
+ They call me The Wild Rose
+ But my name was Elisa Day
+ Why they call me it, I do not know
+-For my name was Elisa Day
+
+commit 773a2f501badc7a7b12a02d327063068bb2fcdaf
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do refren-1.txt
+
+diff --git a/refren-1.txt b/refren-1.txt
+new file mode 100644
+index 0000000..d10c8aa
+--- /dev/null
++++ b/refren-1.txt
+@@ -0,0 +1,5 @@
++[Chorus]
++They call me The Wild Rose
++But my name was Elisa Day
++Why they call me it, I do not know
++For my name was Elisa Day
+
+===== git log -p -- zwrotka-1.txt =====
+commit 5f428905b8e68de8aa5ace89ec877a2fbec7f37b
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-1.txt
+
+diff --git a/zwrotka-1.txt b/zwrotka-1.txt
+new file mode 100644
+index 0000000..e6659d2
+--- /dev/null
++++ b/zwrotka-1.txt
+@@ -0,0 +1,5 @@
++[Verse 1]
++From the first day I saw her, I knew she was the one
++She stared in my eyes and smiled
++For her lips were the colour of the roses
++That grew down the river, all bloody and wild
+
+===== git log -p -- zwrotka-2.txt =====
+commit 65486bf9d63cd14b2bbbda1ee5f5a5f8078ee124
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-2.txt
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+new file mode 100644
+index 0000000..4286b69
+--- /dev/null
++++ b/zwrotka-2.txt
+@@ -0,0 +1,5 @@
++[Verse 2]
++When he knocked on my door and entered the room
++My trembling subsided in his sure embrace
++He would be my first man, and with a careful hand
++He wiped at the tears that ran down my face
+
+===== git log -p -- refren-2.txt =====
+commit aed05e951a71125c4d8a0bbc78536579547591cc
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:50 2026 +0200
+
+    Usun identyczne refreny i ujednolic odwolania
+
+diff --git a/refren-2.txt b/refren-2.txt
+deleted file mode 100644
+index d10c8aa..0000000
+--- a/refren-2.txt
++++ /dev/null
+@@ -1,5 +0,0 @@
+-[Chorus]
+-They call me The Wild Rose
+-But my name was Elisa Day
+-Why they call me it, I do not know
+-For my name was Elisa Day
+
+commit 87d23e9a1ad8c855d5a2b5b23d7350b1bb892c18
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do refren-2.txt
+
+diff --git a/refren-2.txt b/refren-2.txt
+new file mode 100644
+index 0000000..d10c8aa
+--- /dev/null
++++ b/refren-2.txt
+@@ -0,0 +1,5 @@
++[Chorus]
++They call me The Wild Rose
++But my name was Elisa Day
++Why they call me it, I do not know
++For my name was Elisa Day
+
+===== git log -p -- zwrotka-3.txt =====
+commit 57b1a1c524f6db6bbff10b9436f02ef3774b9e34
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-3.txt
+
+diff --git a/zwrotka-3.txt b/zwrotka-3.txt
+new file mode 100644
+index 0000000..958fce6
+--- /dev/null
++++ b/zwrotka-3.txt
+@@ -0,0 +1,5 @@
++[Verse 3]
++On the second day, I brought her a flower
++She was more beautiful than any woman I've seen
++I said, "Do you know where the wild roses grow
++So sweet and scarlet and free?"
+
+===== git log -p -- zwrotka-4.txt =====
+commit e679f2f76e1dc37190b1ff504e9f2714e77abc7e
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-4.txt
+
+diff --git a/zwrotka-4.txt b/zwrotka-4.txt
+new file mode 100644
+index 0000000..b2726be
+--- /dev/null
++++ b/zwrotka-4.txt
+@@ -0,0 +1,5 @@
++[Verse 4]
++On the second day, he came with a single red rose
++He said, "Give me your loss and your sorrow"
++I nodded my head as I lay on the bed
++If I show you the roses, will you follow?
+
+===== git log -p -- refren-3.txt =====
+commit aed05e951a71125c4d8a0bbc78536579547591cc
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:50 2026 +0200
+
+    Usun identyczne refreny i ujednolic odwolania
+
+diff --git a/refren-3.txt b/refren-3.txt
+deleted file mode 100644
+index d10c8aa..0000000
+--- a/refren-3.txt
++++ /dev/null
+@@ -1,5 +0,0 @@
+-[Chorus]
+-They call me The Wild Rose
+-But my name was Elisa Day
+-Why they call me it, I do not know
+-For my name was Elisa Day
+
+commit 134f955790d0b99b20e54028230bcc2451cd5c75
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do refren-3.txt
+
+diff --git a/refren-3.txt b/refren-3.txt
+new file mode 100644
+index 0000000..d10c8aa
+--- /dev/null
++++ b/refren-3.txt
+@@ -0,0 +1,5 @@
++[Chorus]
++They call me The Wild Rose
++But my name was Elisa Day
++Why they call me it, I do not know
++For my name was Elisa Day
+
+===== git log -p -- zwrotka-5.txt =====
+commit 226ffe454eac92a14458b929ebccd585636e14f5
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-5.txt
+
+diff --git a/zwrotka-5.txt b/zwrotka-5.txt
+new file mode 100644
+index 0000000..c0ceec2
+--- /dev/null
++++ b/zwrotka-5.txt
+@@ -0,0 +1,5 @@
++[Verse 5]
++On the third day, he took me to the river
++He showed me the roses and we kissed
++And the last thing I heard was a muttered word
++As he knelt above me with a rock in his fist
+
+===== git log -p -- zwrotka-6.txt =====
+commit f81fcd655fd6189f44064252837f85ab806b1b2b
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do zwrotka-6.txt
+
+diff --git a/zwrotka-6.txt b/zwrotka-6.txt
+new file mode 100644
+index 0000000..4837c2f
+--- /dev/null
++++ b/zwrotka-6.txt
+@@ -0,0 +1,5 @@
++[Verse 6]
++On the last day I took her where the wild roses grow
++She lay on the bank, the wind light as a thief
++And I kissed her goodbye, said, "All beauty must die"
++And leant down and planted a rose 'tween her teeth
+
+===== git log -p -- refren-4.txt =====
+commit aed05e951a71125c4d8a0bbc78536579547591cc
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:50 2026 +0200
+
+    Usun identyczne refreny i ujednolic odwolania
+
+diff --git a/refren-4.txt b/refren-4.txt
+deleted file mode 100644
+index d10c8aa..0000000
+--- a/refren-4.txt
++++ /dev/null
+@@ -1,5 +0,0 @@
+-[Chorus]
+-They call me The Wild Rose
+-But my name was Elisa Day
+-Why they call me it, I do not know
+-For my name was Elisa Day
+
+commit 889c3db92283128f0d1f38d810aec494f40bcc25
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do refren-4.txt
+
+diff --git a/refren-4.txt b/refren-4.txt
+new file mode 100644
+index 0000000..d10c8aa
+--- /dev/null
++++ b/refren-4.txt
+@@ -0,0 +1,5 @@
++[Chorus]
++They call me The Wild Rose
++But my name was Elisa Day
++Why they call me it, I do not know
++For my name was Elisa Day
+
+===== git log -p -- outro.txt =====
+commit 5d5692719c2743910e41eafee1d6cd513a5ae253
+Author: Joanna <koczur.joanna@gmail.com>
+Date:   Wed Sep 23 13:23:49 2026 +0200
+
+    Przenies fragment do outro.txt
+
+diff --git a/outro.txt b/outro.txt
+new file mode 100644
+index 0000000..dc685da
+--- /dev/null
++++ b/outro.txt
+@@ -0,0 +1,3 @@
++[Outro]
++My name was Elisa Day
++For my name was Elisa Day
